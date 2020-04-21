@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const auth = require('../middleware/auth')
-const stuffCtrl = require('../controllers/stuff')
+const auth = require('../middleware/auth');
+const stuffCtrl = require('../controllers/stuff');
 
 
 // lorsqu'on veut protéger une route, on rajoute le middleware avant le controller
